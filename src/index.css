@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card-body{
+  height: 700px;  
+}
+.card{
+  height: 580px;
+}
+.card-body contentboxwrap overflow-auto{
+  height: 600px;
+}
+
+.bg-light text-center text-white{
+  align-items: end;
+}

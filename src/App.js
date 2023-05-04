@@ -6,8 +6,10 @@ import {
   Route,
 } from "react-router-dom";
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
+import Test from './components/test';
 
 
 function App() {
@@ -17,9 +19,12 @@ function App() {
         <BrowserRouter>
           <Navbar />
           <Routes>
+          <Route exact path="" element={<Home />} />
             <Route exact path="Home" element={<Home />} />
             <Route exact path="About" element={<About />} />
+            <Route exact path="Test" element={<Test />} />
           </Routes>
+          <Footer/>
         </BrowserRouter>
     
     

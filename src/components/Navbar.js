@@ -17,8 +17,8 @@ const Navbar = () => {
       </nav>
         <div className="container-fluid">
           {/* <Link className="navbar-brand" to="/home">Kiran Madhe</Link> */}
-          <Link className="navbar-brand" href="#">
-            <img src={Photo} alt="Logo" width={30} height={30} className="d-inline-block align-text-top" />
+          <Link className="navbar-brand" to="/home">
+            <img src={Photo} alt="Logo" width={30} height={30} to="/home" className="d-inline-block align-text-top" />
               &nbsp;&nbsp;&nbsp;Kiran Madhe
           </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
